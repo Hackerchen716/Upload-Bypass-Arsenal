@@ -24,7 +24,7 @@ A comprehensive walkthrough of [Upload-Labs](https://github.com/c0ny1/upload-lab
 | # | Challenge | Vulnerability Type | Difficulty | Status |
 |---|-----------|-------------------|------------|--------|
 | 01 | [Pass-01](Pass-01/) | Client-side JS Validation | ⭐ | ✅ |
-| 02 | [Pass-02](Pass-02/) | MIME Type Validation | ⭐ | 🔲 |
+| 02 | [Pass-02](Pass-02/) | MIME Type Validation | ⭐ | ✅ |
 | 03 | [Pass-03](Pass-03/) | Blacklist - Alternate Extensions | ⭐⭐ | 🔲 |
 | 04 | [Pass-04](Pass-04/) | Blacklist - .htaccess | ⭐⭐ | 🔲 |
 | 05 | [Pass-05](Pass-05/) | Blacklist - Case Sensitivity | ⭐⭐ | 🔲 |
@@ -79,7 +79,7 @@ This repository is for **educational purposes only**. Only test on systems you o
 | # | 关卡 | 漏洞类型 | 难度 | 状态 |
 |---|------|---------|------|------|
 | 01 | [Pass-01](Pass-01/) | 前端 JS 校验 | ⭐ | ✅ |
-| 02 | [Pass-02](Pass-02/) | MIME 类型校验 | ⭐ | 🔲 |
+| 02 | [Pass-02](Pass-02/) | MIME 类型校验 | ⭐ | ✅ |
 | 03 | [Pass-03](Pass-03/) | 黑名单 - 替代扩展名 | ⭐⭐ | 🔲 |
 | 04 | [Pass-04](Pass-04/) | 黑名单 - .htaccess | ⭐⭐ | 🔲 |
 | 05 | [Pass-05](Pass-05/) | 黑名单 - 大小写绕过 | ⭐⭐ | 🔲 |
@@ -137,6 +137,12 @@ upload-labs-writeup/
 │       ├── 05-burp-intercept-js-block.png
 │       └── 06-console-override-checkfile.png
 ├── Pass-02/
+│   ├── README.md          # Writeup (Bilingual)
+│   └── images/
+│       ├── 01-burp-original-request.png
+│       ├── 02-burp-modified-content-type.png
+│       └── 03-phpinfo-executed.png
+├── Pass-03/
 │   └── ...
 └── ...
 ```
@@ -144,3 +150,7 @@ upload-labs-writeup/
 ## License / 许可证
 
 MIT License
+
+## Author / 作者
+
+Created with 💻 and ☕
